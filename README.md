@@ -2,7 +2,6 @@
 
 ## 1. Yêu cầu hệ thống
 - Python 3.8+
-- MongoDB Community Server
 - pip (Python package manager)
 
 ## 2. Cài đặt các package cần thiết
@@ -23,11 +22,6 @@ pip install -r requirements.txt
 ```bash
 cd ../FE
 pip install -r requirements.txt
-```
-
-```
-KEYS_DIR=./keys
-PORT=5005
 ```
 
 ## 3. Khởi tạo certificate cho server (BE)
@@ -73,7 +67,7 @@ python run_all.py
 - Certificate của user chứa đầy đủ thông tin, do server ký
 - Giao tiếp giữa các thành phần qua HTTPS (có thể cần chấp nhận self-signed cert khi test)
 
-## 9. Troubleshooting
+## 7. Troubleshooting
 - Nếu gặp lỗi, kiểm tra log của từng service (BE, FE, LocalApp)
 
 ---
