@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sản phẩm</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <h2>Danh sách sản phẩm</h2>
+    <ul>
+    {% for p in products %}
+        <li>{{ p.name }} - {{ p.price }} - {{ p.seller }} {% if p.description %}({{ p.description }}){% endif %}
+        {% if role == 'buyer' %}
+            <form method="post" action="/add_to_cart" style="display:inline;">
+                <input type="hidden" name="product_id" value="{{ p._id['$oid'] if p._id and '$oid' in p._id else p.name }}">
+                <button type="submit" class="btn" title="Thêm vào giỏ hàng">Thêm vào giỏ hàng</button>
+            </form>
+        {% endif %}
+        </li>
+    {% endfor %}
+    </ul>
+    {% if role == 'seller' or role == 'admin' %}
+    <h3>Thêm sản phẩm</h3>
+    <form method="post" class="dashboard-form">
+        <label>Tên sản phẩm:</label><br>
+        <input type="text" name="name" required><br>
+        <label>Giá:</label><br>
+        <input type="number" name="price" required><br>
+        <label>Mô tả:</label><br>
+        <input type="text" name="description"><br>
+        <input type="submit" value="Thêm sản phẩm">
+    </form>
+    {% endif %}
+    <a href="/dashboard" class="btn-dashboard">Về dashboard</a>
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul>
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+</body>
+</html> 

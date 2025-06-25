@@ -1,0 +1,303 @@
+2025-06-23 02:12:47,937 WARNING:  * Debugger is active!
+2025-06-23 02:12:47,942 INFO:  * Debugger PIN: 111-735-905
+2025-06-23 02:15:16,300 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5005
+2025-06-23 02:15:16,300 INFO: [33mPress CTRL+C to quit[0m
+2025-06-23 02:15:16,308 INFO:  * Restarting with stat
+2025-06-23 02:15:16,629 WARNING:  * Debugger is active!
+2025-06-23 02:15:16,636 INFO:  * Debugger PIN: 111-735-905
+2025-06-23 02:21:08,793 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5005
+2025-06-23 02:21:08,796 INFO: [33mPress CTRL+C to quit[0m
+2025-06-23 02:21:08,800 INFO:  * Restarting with stat
+2025-06-23 02:21:09,178 WARNING:  * Debugger is active!
+2025-06-23 02:21:09,184 INFO:  * Debugger PIN: 111-735-905
+2025-06-23 02:23:10,461 INFO: 127.0.0.1 - - [23/Jun/2025 02:23:10] "POST /gen_key_csr HTTP/1.1" 200 -
+2025-06-23 02:23:14,651 INFO: 127.0.0.1 - - [23/Jun/2025 02:23:14] "POST /save_cert HTTP/1.1" 200 -
+2025-06-23 02:23:43,594 INFO: 127.0.0.1 - - [23/Jun/2025 02:23:43] "[31m[1mPOST /gen_key_csr HTTP/1.1[0m" 400 -
+2025-06-23 02:24:12,522 INFO: 127.0.0.1 - - [23/Jun/2025 02:24:12] "POST /gen_key_csr HTTP/1.1" 200 -
+2025-06-23 02:24:16,750 INFO: 127.0.0.1 - - [23/Jun/2025 02:24:16] "POST /save_cert HTTP/1.1" 200 -
+2025-06-23 02:29:13,354 INFO:  * Detected change in 'C:\\Users\\Admin\\Desktop\\do an\\Crypto\\LocalApp\\app.py', reloading
+2025-06-23 02:29:13,395 INFO:  * Restarting with stat
+2025-06-23 02:29:13,743 WARNING:  * Debugger is active!
+2025-06-23 02:29:13,749 INFO:  * Debugger PIN: 111-735-905
+2025-06-23 02:36:50,045 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5005
+2025-06-23 02:36:50,046 INFO: [33mPress CTRL+C to quit[0m
+2025-06-23 02:36:50,050 INFO:  * Restarting with stat
+2025-06-23 02:36:50,401 WARNING:  * Debugger is active!
+2025-06-23 02:36:50,405 INFO:  * Debugger PIN: 111-735-905
+2025-06-23 02:40:14,231 INFO: 127.0.0.1 - - [23/Jun/2025 02:40:14] "POST /sign HTTP/1.1" 200 -
+2025-06-23 10:18:18,856 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5005
+2025-06-23 10:18:18,856 INFO: [33mPress CTRL+C to quit[0m
+2025-06-23 10:18:18,858 INFO:  * Restarting with stat
+2025-06-23 10:18:19,450 WARNING:  * Debugger is active!
+2025-06-23 10:18:19,457 INFO:  * Debugger PIN: 118-572-590
+2025-06-23 10:18:56,538 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5005
+2025-06-23 10:18:56,539 INFO: [33mPress CTRL+C to quit[0m
+2025-06-23 10:18:56,540 INFO:  * Restarting with stat
+2025-06-23 10:18:57,018 WARNING:  * Debugger is active!
+2025-06-23 10:18:57,023 INFO:  * Debugger PIN: 118-572-590
+2025-06-23 18:21:35,382 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5005
+2025-06-23 18:21:35,383 INFO: [33mPress CTRL+C to quit[0m
+2025-06-23 18:21:35,385 INFO:  * Restarting with stat
+2025-06-23 18:21:35,984 WARNING:  * Debugger is active!
+2025-06-23 18:21:35,988 INFO:  * Debugger PIN: 118-572-590
+2025-06-23 18:53:09,258 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5005
+2025-06-23 18:53:09,258 INFO: [33mPress CTRL+C to quit[0m
+2025-06-23 18:53:09,260 INFO:  * Restarting with stat
+2025-06-23 18:53:09,859 WARNING:  * Debugger is active!
+2025-06-23 18:53:09,864 INFO:  * Debugger PIN: 118-572-590
+2025-06-23 19:21:09,021 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5005
+2025-06-23 19:21:09,021 INFO: [33mPress CTRL+C to quit[0m
+2025-06-23 19:21:09,023 INFO:  * Restarting with stat
+2025-06-23 19:21:09,471 WARNING:  * Debugger is active!
+2025-06-23 19:21:09,474 INFO:  * Debugger PIN: 118-572-590
+2025-06-23 19:22:41,650 INFO: 127.0.0.1 - - [23/Jun/2025 19:22:41] "POST /gen_key_csr HTTP/1.1" 200 -
+2025-06-23 19:22:45,886 INFO: 127.0.0.1 - - [23/Jun/2025 19:22:45] "POST /save_cert HTTP/1.1" 200 -
+2025-06-23 19:32:05,202 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5005
+2025-06-23 19:32:05,203 INFO: [33mPress CTRL+C to quit[0m
+2025-06-23 19:32:05,204 INFO:  * Restarting with stat
+2025-06-23 19:32:05,614 WARNING:  * Debugger is active!
+2025-06-23 19:32:05,618 INFO:  * Debugger PIN: 118-572-590
+2025-06-23 20:04:00,764 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5005
+2025-06-23 20:04:00,764 INFO: [33mPress CTRL+C to quit[0m
+2025-06-23 20:04:00,768 INFO:  * Restarting with stat
+2025-06-23 20:04:01,506 WARNING:  * Debugger is active!
+2025-06-23 20:04:01,511 INFO:  * Debugger PIN: 118-572-590
+2025-06-23 20:07:15,964 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5005
+2025-06-23 20:07:15,964 INFO: [33mPress CTRL+C to quit[0m
+2025-06-23 20:07:15,966 INFO:  * Restarting with stat
+2025-06-23 20:07:16,642 WARNING:  * Debugger is active!
+2025-06-23 20:07:16,647 INFO:  * Debugger PIN: 118-572-590
+2025-06-23 20:10:33,244 INFO: 127.0.0.1 - - [23/Jun/2025 20:10:33] "POST /gen_key_csr HTTP/1.1" 200 -
+2025-06-23 20:10:37,474 INFO: 127.0.0.1 - - [23/Jun/2025 20:10:37] "POST /save_cert HTTP/1.1" 200 -
+2025-06-24 03:39:49,833 INFO: 127.0.0.1 - - [24/Jun/2025 03:39:49] "POST /sign HTTP/1.1" 200 -
+2025-06-24 03:41:01,280 INFO: 127.0.0.1 - - [24/Jun/2025 03:41:01] "POST /sign HTTP/1.1" 200 -
+2025-06-24 03:43:24,738 INFO: 127.0.0.1 - - [24/Jun/2025 03:43:24] "POST /gen_key_csr HTTP/1.1" 200 -
+2025-06-24 03:43:28,951 INFO: 127.0.0.1 - - [24/Jun/2025 03:43:28] "POST /save_cert HTTP/1.1" 200 -
+2025-06-24 03:48:07,347 INFO: 127.0.0.1 - - [24/Jun/2025 03:48:07] "POST /sign HTTP/1.1" 200 -
+2025-06-24 03:48:47,965 INFO: 127.0.0.1 - - [24/Jun/2025 03:48:47] "[31m[1mPOST /sign HTTP/1.1[0m" 400 -
+2025-06-24 04:10:15,845 INFO: 127.0.0.1 - - [24/Jun/2025 04:10:15] "POST /sign HTTP/1.1" 200 -
+2025-06-24 04:10:16,703 INFO: 127.0.0.1 - - [24/Jun/2025 04:10:16] "POST /sign HTTP/1.1" 200 -
+2025-06-24 04:10:18,107 INFO: 127.0.0.1 - - [24/Jun/2025 04:10:18] "POST /sign HTTP/1.1" 200 -
+2025-06-24 04:14:38,159 INFO: 127.0.0.1 - - [24/Jun/2025 04:14:38] "[31m[1mPOST /sign HTTP/1.1[0m" 400 -
+2025-06-24 04:15:06,794 INFO: 127.0.0.1 - - [24/Jun/2025 04:15:06] "POST /sign HTTP/1.1" 200 -
+2025-06-24 04:15:10,247 INFO: 127.0.0.1 - - [24/Jun/2025 04:15:10] "POST /sign HTTP/1.1" 200 -
+2025-06-24 04:15:11,430 INFO: 127.0.0.1 - - [24/Jun/2025 04:15:11] "POST /sign HTTP/1.1" 200 -
+2025-06-24 04:16:16,369 INFO: 127.0.0.1 - - [24/Jun/2025 04:16:16] "POST /sign HTTP/1.1" 200 -
+2025-06-24 04:16:29,206 INFO: 127.0.0.1 - - [24/Jun/2025 04:16:29] "POST /sign HTTP/1.1" 200 -
+2025-06-24 04:35:10,849 INFO: 127.0.0.1 - - [24/Jun/2025 04:35:10] "[31m[1mPOST /sign HTTP/1.1[0m" 400 -
+2025-06-24 04:47:01,209 INFO:  * Detected change in 'D:\\Ð\u1ed3_án\\M\xe3 hóa\\Crypto 2.0\\LocalApp\\app.py', reloading
+2025-06-24 04:47:01,384 INFO:  * Restarting with stat
+2025-06-24 04:47:02,102 WARNING:  * Debugger is active!
+2025-06-24 04:47:02,107 INFO:  * Debugger PIN: 118-572-590
+2025-06-24 04:47:33,286 INFO:  * Detected change in 'D:\\Ð\u1ed3_án\\M\xe3 hóa\\Crypto 2.0\\LocalApp\\app.py', reloading
+2025-06-24 04:47:33,432 INFO:  * Restarting with stat
+2025-06-24 04:47:34,087 WARNING:  * Debugger is active!
+2025-06-24 04:47:34,092 INFO:  * Debugger PIN: 118-572-590
+2025-06-24 04:53:37,306 INFO: 127.0.0.1 - - [24/Jun/2025 04:53:37] "POST /gen_key_csr HTTP/1.1" 200 -
+2025-06-24 04:53:41,538 INFO: 127.0.0.1 - - [24/Jun/2025 04:53:41] "POST /save_cert HTTP/1.1" 200 -
+2025-06-24 04:56:28,705 INFO: 127.0.0.1 - - [24/Jun/2025 04:56:28] "POST /gen_key_csr HTTP/1.1" 200 -
+2025-06-24 04:56:32,921 INFO: 127.0.0.1 - - [24/Jun/2025 04:56:32] "POST /save_cert HTTP/1.1" 200 -
+2025-06-24 05:18:37,395 INFO:  * Detected change in 'D:\\Ð\u1ed3_án\\M\xe3 hóa\\Crypto 2.0\\LocalApp\\app.py', reloading
+2025-06-24 05:18:37,562 INFO:  * Restarting with stat
+2025-06-24 05:18:40,464 WARNING:  * Debugger is active!
+2025-06-24 05:18:40,471 INFO:  * Debugger PIN: 118-572-590
+2025-06-24 05:20:41,881 INFO: 127.0.0.1 - - [24/Jun/2025 05:20:41] "POST /gen_key_csr HTTP/1.1" 200 -
+2025-06-24 05:20:46,131 INFO: 127.0.0.1 - - [24/Jun/2025 05:20:46] "POST /save_cert HTTP/1.1" 200 -
+2025-06-24 05:24:05,288 INFO:  * Detected change in 'D:\\Ð\u1ed3_án\\M\xe3 hóa\\Crypto 2.0\\LocalApp\\crypto_local.py', reloading
+2025-06-24 05:24:05,459 INFO:  * Restarting with stat
+2025-06-24 05:24:06,255 WARNING:  * Debugger is active!
+2025-06-24 05:24:06,259 INFO:  * Debugger PIN: 118-572-590
+2025-06-24 05:24:44,487 INFO:  * Detected change in 'D:\\Ð\u1ed3_án\\M\xe3 hóa\\Crypto 2.0\\LocalApp\\test_keys.py', reloading
+2025-06-24 05:24:44,568 INFO:  * Restarting with stat
+2025-06-24 05:24:45,072 WARNING:  * Debugger is active!
+2025-06-24 05:24:45,076 INFO:  * Debugger PIN: 118-572-590
+2025-06-24 05:27:14,264 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5005
+2025-06-24 05:27:14,264 INFO: [33mPress CTRL+C to quit[0m
+2025-06-24 05:27:14,267 INFO:  * Restarting with stat
+2025-06-24 05:27:14,948 WARNING:  * Debugger is active!
+2025-06-24 05:27:14,952 INFO:  * Debugger PIN: 118-572-590
+2025-06-24 05:28:26,102 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5005
+2025-06-24 05:28:26,102 INFO: [33mPress CTRL+C to quit[0m
+2025-06-24 05:28:26,104 INFO:  * Restarting with stat
+2025-06-24 05:28:26,681 WARNING:  * Debugger is active!
+2025-06-24 05:28:26,687 INFO:  * Debugger PIN: 118-572-590
+2025-06-24 05:28:57,392 INFO:  * Detected change in 'D:\\Ð\u1ed3_án\\M\xe3 hóa\\Crypto 2.0\\LocalApp\\test_api.py', reloading
+2025-06-24 05:28:57,519 INFO:  * Restarting with stat
+2025-06-24 05:28:57,613 INFO:  * Detected change in 'D:\\Ð\u1ed3_án\\M\xe3 hóa\\Crypto 2.0\\LocalApp\\test_api.py', reloading
+2025-06-24 05:28:57,783 INFO:  * Restarting with stat
+2025-06-24 05:28:57,851 INFO:  * Detected change in 'D:\\Ð\u1ed3_án\\M\xe3 hóa\\Crypto 2.0\\LocalApp\\test_api.py', reloading
+2025-06-24 05:28:58,037 INFO:  * Restarting with stat
+2025-06-24 05:28:58,436 WARNING:  * Debugger is active!
+2025-06-24 05:28:58,443 INFO:  * Debugger PIN: 118-572-590
+2025-06-24 05:28:58,579 WARNING:  * Debugger is active!
+2025-06-24 05:28:58,589 INFO:  * Debugger PIN: 118-572-590
+2025-06-24 05:28:58,733 WARNING:  * Debugger is active!
+2025-06-24 05:28:58,739 INFO:  * Debugger PIN: 118-572-590
+2025-06-24 05:36:02,350 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5005
+2025-06-24 05:36:02,350 INFO: [33mPress CTRL+C to quit[0m
+2025-06-24 05:36:02,352 INFO:  * Restarting with stat
+2025-06-24 05:36:03,010 WARNING:  * Debugger is active!
+2025-06-24 05:36:03,015 INFO:  * Debugger PIN: 118-572-590
+2025-06-24 05:38:22,079 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5005
+2025-06-24 05:38:22,079 INFO: [33mPress CTRL+C to quit[0m
+2025-06-24 05:38:22,082 INFO:  * Restarting with stat
+2025-06-24 05:38:22,822 WARNING:  * Debugger is active!
+2025-06-24 05:38:22,829 INFO:  * Debugger PIN: 118-572-590
+2025-06-24 05:40:20,526 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5005
+2025-06-24 05:40:20,526 INFO: [33mPress CTRL+C to quit[0m
+2025-06-24 05:40:20,528 INFO:  * Restarting with stat
+2025-06-24 05:40:21,245 WARNING:  * Debugger is active!
+2025-06-24 05:40:21,251 INFO:  * Debugger PIN: 118-572-590
+2025-06-24 05:43:59,526 INFO: 127.0.0.1 - - [24/Jun/2025 05:43:59] "POST /gen_key_csr HTTP/1.1" 200 -
+2025-06-24 05:44:03,811 INFO: 127.0.0.1 - - [24/Jun/2025 05:44:03] "POST /save_cert HTTP/1.1" 200 -
+2025-06-24 05:46:39,755 INFO: 127.0.0.1 - - [24/Jun/2025 05:46:39] "POST /gen_key_csr HTTP/1.1" 200 -
+2025-06-24 05:46:44,001 INFO: 127.0.0.1 - - [24/Jun/2025 05:46:44] "POST /save_cert HTTP/1.1" 200 -
+2025-06-24 05:48:57,456 INFO: 127.0.0.1 - - [24/Jun/2025 05:48:57] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 05:49:10,364 INFO: 127.0.0.1 - - [24/Jun/2025 05:49:10] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 05:51:26,837 INFO: 127.0.0.1 - - [24/Jun/2025 05:51:26] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 05:59:39,650 INFO: 127.0.0.1 - - [24/Jun/2025 05:59:39] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 06:00:12,663 INFO: 127.0.0.1 - - [24/Jun/2025 06:00:12] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 06:02:28,023 INFO: 127.0.0.1 - - [24/Jun/2025 06:02:28] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 06:02:53,011 INFO: 127.0.0.1 - - [24/Jun/2025 06:02:53] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 13:11:08,941 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5005
+2025-06-24 13:11:08,941 INFO: [33mPress CTRL+C to quit[0m
+2025-06-24 13:11:08,943 INFO:  * Restarting with stat
+2025-06-24 13:11:09,612 WARNING:  * Debugger is active!
+2025-06-24 13:11:09,617 INFO:  * Debugger PIN: 118-572-590
+2025-06-24 13:11:58,903 INFO: 127.0.0.1 - - [24/Jun/2025 13:11:58] "POST /gen_key_csr HTTP/1.1" 200 -
+2025-06-24 13:12:03,175 INFO: 127.0.0.1 - - [24/Jun/2025 13:12:03] "POST /save_cert HTTP/1.1" 200 -
+2025-06-24 15:00:55,608 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5005
+2025-06-24 15:00:55,609 INFO: [33mPress CTRL+C to quit[0m
+2025-06-24 15:00:55,613 INFO:  * Restarting with stat
+2025-06-24 15:00:56,044 WARNING:  * Debugger is active!
+2025-06-24 15:00:56,054 INFO:  * Debugger PIN: 111-735-905
+2025-06-24 15:01:50,921 INFO: 127.0.0.1 - - [24/Jun/2025 15:01:50] "POST /gen_key_csr HTTP/1.1" 200 -
+2025-06-24 15:01:55,191 INFO: 127.0.0.1 - - [24/Jun/2025 15:01:55] "POST /save_cert HTTP/1.1" 200 -
+2025-06-24 15:03:59,557 INFO: 127.0.0.1 - - [24/Jun/2025 15:03:59] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 15:05:13,984 INFO: 127.0.0.1 - - [24/Jun/2025 15:05:13] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 15:05:51,047 INFO: 127.0.0.1 - - [24/Jun/2025 15:05:51] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 15:08:16,481 INFO: 127.0.0.1 - - [24/Jun/2025 15:08:16] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 15:10:47,203 INFO: 127.0.0.1 - - [24/Jun/2025 15:10:47] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 15:13:54,287 INFO: 127.0.0.1 - - [24/Jun/2025 15:13:54] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 15:14:24,205 INFO: 127.0.0.1 - - [24/Jun/2025 15:14:24] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 15:14:39,113 INFO: 127.0.0.1 - - [24/Jun/2025 15:14:39] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 15:15:44,028 INFO: 127.0.0.1 - - [24/Jun/2025 15:15:44] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 15:17:32,843 INFO: 127.0.0.1 - - [24/Jun/2025 15:17:32] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 15:18:29,460 INFO: 127.0.0.1 - - [24/Jun/2025 15:18:29] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 15:23:46,360 INFO: 127.0.0.1 - - [24/Jun/2025 15:23:46] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 15:24:32,279 INFO: 127.0.0.1 - - [24/Jun/2025 15:24:32] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 15:26:05,978 INFO: 127.0.0.1 - - [24/Jun/2025 15:26:05] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 15:29:30,265 INFO:  * Detected change in 'C:\\Users\\Admin\\Desktop\\do an\\Crypto 2.0\\LocalApp\\app.py', reloading
+2025-06-24 15:29:30,358 INFO:  * Restarting with stat
+2025-06-24 15:29:30,790 WARNING:  * Debugger is active!
+2025-06-24 15:29:30,795 INFO:  * Debugger PIN: 111-735-905
+2025-06-24 15:29:32,039 INFO:  * Detected change in 'C:\\Users\\Admin\\Desktop\\do an\\Crypto 2.0\\LocalApp\\app.py', reloading
+2025-06-24 15:29:32,082 INFO:  * Restarting with stat
+2025-06-24 15:29:32,416 WARNING:  * Debugger is active!
+2025-06-24 15:29:32,422 INFO:  * Debugger PIN: 111-735-905
+2025-06-24 15:29:32,924 ERROR: Error during ML-DSA signing for user nguoiban2keypass12345: SK packed bytes is of the wrong length\nTraceback (most recent call last):
+  File "C:\Users\Admin\Desktop\do an\Crypto 2.0\LocalApp\app.py", line 93, in hybrid_sign
+    sig_mldsa = sign_mldsa(sk, message)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\do an\Crypto 2.0\LocalApp\crypto_local.py", line 45, in sign_mldsa
+    return ML_DSA_44.sign(priv, message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\dilithium_py\ml_dsa\ml_dsa.py", line 371, in sign
+    sig_bytes = self._sign_internal(sk_bytes, m_prime, rnd)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\dilithium_py\ml_dsa\ml_dsa.py", line 227, in _sign_internal
+    rho, K, tr, s1, s2, t0 = self._unpack_sk(sk_bytes)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\dilithium_py\ml_dsa\ml_dsa.py", line 140, in _unpack_sk
+    raise ValueError("SK packed bytes is of the wrong length")
+ValueError: SK packed bytes is of the wrong length
+
+2025-06-24 15:29:32,924 INFO: 127.0.0.1 - - [24/Jun/2025 15:29:32] "[35m[1mPOST /hybrid_sign HTTP/1.1[0m" 500 -
+2025-06-24 15:31:54,169 INFO: 127.0.0.1 - - [24/Jun/2025 15:31:54] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 15:33:05,813 ERROR: Error during ML-DSA signing for user nguoiban2keypass12345: SK packed bytes is of the wrong length\nTraceback (most recent call last):
+  File "C:\Users\Admin\Desktop\do an\Crypto 2.0\LocalApp\app.py", line 93, in hybrid_sign
+    sig_mldsa = sign_mldsa(sk, message)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\do an\Crypto 2.0\LocalApp\crypto_local.py", line 45, in sign_mldsa
+    return ML_DSA_44.sign(priv, message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\dilithium_py\ml_dsa\ml_dsa.py", line 371, in sign
+    sig_bytes = self._sign_internal(sk_bytes, m_prime, rnd)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\dilithium_py\ml_dsa\ml_dsa.py", line 227, in _sign_internal
+    rho, K, tr, s1, s2, t0 = self._unpack_sk(sk_bytes)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\dilithium_py\ml_dsa\ml_dsa.py", line 140, in _unpack_sk
+    raise ValueError("SK packed bytes is of the wrong length")
+ValueError: SK packed bytes is of the wrong length
+
+2025-06-24 15:33:05,813 INFO: 127.0.0.1 - - [24/Jun/2025 15:33:05] "[35m[1mPOST /hybrid_sign HTTP/1.1[0m" 500 -
+2025-06-24 15:33:24,484 ERROR: Error during ML-DSA signing for user nguoiban2keypass12345: SK packed bytes is of the wrong length\nTraceback (most recent call last):
+  File "C:\Users\Admin\Desktop\do an\Crypto 2.0\LocalApp\app.py", line 93, in hybrid_sign
+    sig_mldsa = sign_mldsa(sk, message)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\Desktop\do an\Crypto 2.0\LocalApp\crypto_local.py", line 45, in sign_mldsa
+    return ML_DSA_44.sign(priv, message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\dilithium_py\ml_dsa\ml_dsa.py", line 371, in sign
+    sig_bytes = self._sign_internal(sk_bytes, m_prime, rnd)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\dilithium_py\ml_dsa\ml_dsa.py", line 227, in _sign_internal
+    rho, K, tr, s1, s2, t0 = self._unpack_sk(sk_bytes)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\dilithium_py\ml_dsa\ml_dsa.py", line 140, in _unpack_sk
+    raise ValueError("SK packed bytes is of the wrong length")
+ValueError: SK packed bytes is of the wrong length
+
+2025-06-24 15:33:24,485 INFO: 127.0.0.1 - - [24/Jun/2025 15:33:24] "[35m[1mPOST /hybrid_sign HTTP/1.1[0m" 500 -
+2025-06-24 15:34:25,130 INFO:  * Detected change in 'C:\\Users\\Admin\\Desktop\\do an\\Crypto 2.0\\LocalApp\\app.py', reloading
+2025-06-24 15:34:25,206 INFO:  * Restarting with stat
+2025-06-24 15:34:25,669 WARNING:  * Debugger is active!
+2025-06-24 15:34:25,676 INFO:  * Debugger PIN: 111-735-905
+2025-06-24 15:34:46,650 INFO: 127.0.0.1 - - [24/Jun/2025 15:34:46] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 15:36:17,986 INFO: 127.0.0.1 - - [24/Jun/2025 15:36:17] "POST /gen_key_csr HTTP/1.1" 200 -
+2025-06-24 15:36:22,235 INFO: 127.0.0.1 - - [24/Jun/2025 15:36:22] "POST /save_cert HTTP/1.1" 200 -
+2025-06-24 15:37:25,130 INFO: 127.0.0.1 - - [24/Jun/2025 15:37:25] "POST /gen_key_csr HTTP/1.1" 200 -
+2025-06-24 15:37:29,357 INFO: 127.0.0.1 - - [24/Jun/2025 15:37:29] "POST /save_cert HTTP/1.1" 200 -
+2025-06-24 15:38:10,747 INFO: 127.0.0.1 - - [24/Jun/2025 15:38:10] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 15:39:40,201 INFO: 127.0.0.1 - - [24/Jun/2025 15:39:40] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 15:43:20,998 INFO: 127.0.0.1 - - [24/Jun/2025 15:43:20] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 15:44:10,895 INFO: 127.0.0.1 - - [24/Jun/2025 15:44:10] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 17:16:12,736 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5005
+2025-06-24 17:16:12,737 INFO: [33mPress CTRL+C to quit[0m
+2025-06-24 17:16:12,748 INFO:  * Restarting with stat
+2025-06-24 17:16:14,678 WARNING:  * Debugger is active!
+2025-06-24 17:16:14,707 INFO:  * Debugger PIN: 111-735-905
+2025-06-24 20:27:39,330 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5005
+2025-06-24 20:27:39,330 INFO: [33mPress CTRL+C to quit[0m
+2025-06-24 20:27:39,336 INFO:  * Restarting with stat
+2025-06-24 20:27:39,671 WARNING:  * Debugger is active!
+2025-06-24 20:27:39,679 INFO:  * Debugger PIN: 111-735-905
+2025-06-24 21:18:39,125 INFO: 127.0.0.1 - - [24/Jun/2025 21:18:39] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-24 21:24:10,901 INFO: 127.0.0.1 - - [24/Jun/2025 21:24:10] "POST /hybrid_sign HTTP/1.1" 200 -
+2025-06-25 14:01:09,528 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5005
+2025-06-25 14:01:09,528 INFO: [33mPress CTRL+C to quit[0m
+2025-06-25 14:01:09,536 INFO:  * Restarting with stat
+2025-06-25 14:01:09,868 WARNING:  * Debugger is active!
+2025-06-25 14:01:09,880 INFO:  * Debugger PIN: 111-735-905

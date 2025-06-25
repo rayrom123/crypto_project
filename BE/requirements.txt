@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+motor
+pymongo
+cryptography
+python-jose[cryptography]
+requests
+ecdsa
+python-dotenv
+flask_pymongo
+gunicorn

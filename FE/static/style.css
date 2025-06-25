@@ -1,0 +1,327 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f8fb;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+h2, h3 {
+    color: #1a365d;
+    margin-top: 24px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/* Chỉ áp dụng form styling cho đăng ký, đăng nhập và dashboard */
+form.auth-form, form.dashboard-form {
+    background: #fff;
+    padding: 32px 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(44,62,80,0.10);
+    max-width: 420px;
+    margin: 32px auto;
+}
+
+/* Chỉ áp dụng input styling cho đăng ký, đăng nhập và dashboard */
+form.auth-form input[type="text"], 
+form.auth-form input[type="password"], 
+form.auth-form input[type="email"], 
+form.auth-form input[type="number"], 
+form.auth-form select,
+form.dashboard-form input[type="text"], 
+form.dashboard-form input[type="password"], 
+form.dashboard-form input[type="email"], 
+form.dashboard-form input[type="number"], 
+form.dashboard-form select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px 0;
+    border: 1px solid #bfc9d1;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1em;
+    background: #f7fafc;
+    transition: border 0.2s;
+}
+
+form.auth-form input[type="text"]:focus, 
+form.auth-form input[type="password"]:focus, 
+form.auth-form input[type="email"]:focus, 
+form.auth-form input[type="number"]:focus, 
+form.auth-form select:focus,
+form.dashboard-form input[type="text"]:focus, 
+form.dashboard-form input[type="password"]:focus, 
+form.dashboard-form input[type="email"]:focus, 
+form.dashboard-form input[type="number"]:focus, 
+form.dashboard-form select:focus {
+    border: 1.5px solid #4176a6;
+    outline: none;
+}
+
+/* Chỉ áp dụng button styling cho đăng ký, đăng nhập và dashboard */
+form.auth-form input[type="submit"], 
+form.auth-form button, 
+form.auth-form .btn,
+form.dashboard-form input[type="submit"], 
+form.dashboard-form button, 
+form.dashboard-form .btn {
+    background: linear-gradient(90deg, #2a4d69 60%, #4176a6 100%);
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+    margin-top: 8px;
+}
+
+form.auth-form input[type="submit"]:hover, 
+form.auth-form button:hover, 
+form.auth-form .btn:hover,
+form.dashboard-form input[type="submit"]:hover, 
+form.dashboard-form button:hover, 
+form.dashboard-form .btn:hover {
+    background: linear-gradient(90deg, #4176a6 60%, #2a4d69 100%);
+    box-shadow: 0 4px 16px rgba(44,62,80,0.12);
+}
+
+/* Styling cho tất cả các nút submit, button và .btn */
+input[type="submit"], button, .btn {
+    background: linear-gradient(90deg, #2a4d69 60%, #4176a6 100%);
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(44,62,80,0.08);
+    margin-top: 8px;
+}
+
+input[type="submit"]:hover, button:hover, .btn:hover {
+    background: linear-gradient(90deg, #4176a6 60%, #2a4d69 100%);
+    box-shadow: 0 4px 16px rgba(44,62,80,0.12);
+}
+
+a {
+    color: #2a4d69;
+    text-decoration: none;
+    margin: 0 8px;
+    transition: color 0.2s;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #4176a6;
+    text-decoration: underline;
+}
+
+ul, .card-list {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(44,62,80,0.08);
+    padding: 24px 32px;
+    max-width: 700px;
+    margin: 32px auto;
+    list-style: none;
+}
+
+ul li, .card-list li {
+    margin-bottom: 18px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 1.08em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul li:last-child, .card-list li:last-child {
+    border-bottom: none;
+}
+
+/* Chỉ áp dụng label styling cho đăng ký, đăng nhập và dashboard */
+form.auth-form label,
+form.dashboard-form label {
+    font-weight: 500;
+    color: #2a4d69;
+}
+
+/* Chỉ áp dụng select styling cho đăng ký, đăng nhập và dashboard */
+form.auth-form select,
+form.dashboard-form select {
+    background: #f4f6fb;
+}
+
+.flashes, ul.flashes {
+    background: #e6fffa;
+    color: #1a365d;
+    border: 1px solid #b2f5ea;
+    border-radius: 8px;
+    padding: 12px 20px;
+    margin: 20px auto;
+    max-width: 420px;
+    list-style: none;
+    font-weight: 500;
+}
+
+@media (max-width: 700px) {
+    form.auth-form, form.dashboard-form, ul, .card-list {
+        max-width: 98vw;
+        padding: 12px;
+    }
+    h2, h3 {
+        font-size: 1.2em;
+    }
+}
+
+.btn-add-cart {
+    background: linear-gradient(90deg, #e74c3c 60%, #c0392b 100%) !important;
+    font-size: 0.9em;
+    padding: 8px 16px !important;
+    margin-left: 10px;
+}
+
+.btn-add-cart:hover {
+    background: linear-gradient(90deg, #c0392b 60%, #e74c3c 100%) !important;
+}
+
+.btn-dashboard {
+    display: inline-block;
+    background: #fff;
+    color: #2a4d69;
+    border: 1.5px solid #2a4d69;
+    border-radius: 6px;
+    padding: 8px 18px;
+    margin: 24px auto 0 auto;
+    font-weight: 500;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(44,62,80,0.06);
+    transition: background 0.2s, color 0.2s, border 0.2s;
+}
+.btn-dashboard:hover {
+    background: #2a4d69;
+    color: #fff;
+    border: 1.5px solid #4176a6;
+}
+
+form[method="post"][action="/orders"] {
+    text-align: center;
+    margin-top: 24px;
+}
+
+/* Hero Section cho trang index */
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f4f8fb;
+    color: #222;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(44,62,80,0.10);
+}
+
+.hero-content h1 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    color: #1a365d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-content h2 {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    color: #1a365d;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-description {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    color: #222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: #222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.feature-icon {
+    font-size: 2em;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #2a4d69 60%, #4176a6 100%) !important;
+    font-size: 1.1em;
+    padding: 15px 30px !important;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #4176a6 60%, #2a4d69 100%) !important;
+}
+
+.btn-secondary {
+    background: linear-gradient(90deg, #2a4d69 60%, #4176a6 100%) !important;
+    font-size: 1.1em;
+    padding: 15px 30px !important;
+}
+
+.btn-secondary:hover {
+    background: linear-gradient(90deg, #4176a6 60%, #2a4d69 100%) !important;
+}
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2.5em;
+    }
+    
+    .hero-content h2 {
+        font-size: 1.4em;
+    }
+    
+    .hero-features {
+        gap: 20px;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+} 

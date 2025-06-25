@@ -1,0 +1,5 @@
+Flask
+cryptography
+python-dotenv
+# Note: pqcrypto không khả dụng trên Windows, đã sử dụng mock implementation
+# pqcrypto 

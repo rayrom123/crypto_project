@@ -1,0 +1,5 @@
+LocalApp/__pycache__/
+LocalApp/certs/
+LocalApp/keys/
+keys
+.env

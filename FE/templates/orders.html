@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Đơn hàng</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+  </head>
+  <body>
+    <h2>Danh sách đơn hàng</h2>
+    <ul>
+      {% for o in orders %}
+      <li>
+        Buyer: {{ o.buyer }} | Seller: {{ o.seller }} | Sản phẩm: {{ o.products
+        }}<br />
+        Trạng thái: {{ o.status }}<br />
+        Ngày tạo: {{ o.created_at['$date'].split('T')[0] + ' ' + o.created_at['$date'].split('T')[1][:5] if o.created_at and '$date' in o.created_at else (o.created_at.split('T')[0] + ' ' + o.created_at.split('T')[1][:5] if o.created_at and 'T' in o.created_at else o.created_at) }}<br />
+        Ngày ký server: {{ o.sign_dates.server.split('T')[0] + ' ' + o.sign_dates.server.split('T')[1][:5] if o.sign_dates and o.sign_dates.server and 'T' in o.sign_dates.server else (o.sign_dates.server if o.sign_dates and o.sign_dates.server else '') }}<br />
+        Ngày ký buyer: {{ o.sign_dates.buyer.split('T')[0] + ' ' + o.sign_dates.buyer.split('T')[1][:5] if o.sign_dates and o.sign_dates.buyer and 'T' in o.sign_dates.buyer else (o.sign_dates.buyer if o.sign_dates and o.sign_dates.buyer else '') }}<br />
+        Ngày ký seller: {{ o.sign_dates.seller.split('T')[0] + ' ' + o.sign_dates.seller.split('T')[1][:5] if o.sign_dates and o.sign_dates.seller and 'T' in o.sign_dates.seller else (o.sign_dates.seller if o.sign_dates and o.sign_dates.seller else '') }}<br />
+        {% if role == 'buyer' and o.status == 'server_signed' and o.buyer ==
+        username %}
+        <form method="post" action="/orders/{{ o['_id']['$oid'] }}/sign">
+          <input type="submit" value="Ký số (buyer)" />
+        </form>
+        {% endif %} {% if role == 'seller' and o.status == 'buyer_signed' and
+        o.seller == username %}
+        <form method="post" action="/orders/{{ o['_id']['$oid'] }}/sign">
+          <input type="submit" value="Ký số (seller)" />
+        </form>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% if role == 'buyer' %}
+    <h3>Giỏ hàng của bạn</h3>
+    <ul>
+      {% for pid in cart %}
+        <li>
+          {% for p in products %}
+            {% if (p._id and '$oid' in p._id and p._id['$oid'] == pid) or (not p._id and p.name == pid) %}
+              {{ p.name }} - {{ p.price }}
+            {% endif %}
+          {% endfor %}
+          <form method="post" action="/remove_from_cart" style="display:inline;">
+            <input type="hidden" name="product_id" value="{{ pid }}">
+            <input type="submit" value="Xóa">
+          </form>
+        </li>
+      {% endfor %}
+    </ul>
+    <form method="post" action="/orders" style="text-align:center;">
+      <input type="submit" value="Đặt hàng các sản phẩm trong giỏ" class="btn" />
+    </form>
+    {% endif %}
+    <a href="/dashboard" class="btn-dashboard">Về dashboard</a>
+    {% with messages = get_flashed_messages() %} {% if messages %}
+    <ul>
+      {% for message in messages %}
+      <li>{{ message }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %} {% endwith %}
+  </body>
+</html>

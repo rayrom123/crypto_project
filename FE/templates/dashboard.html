@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <h2>Xin chào, {{ username }} ({{ role }})</h2>
+    <ul class="dashboard-form">
+        <li><a href="/products">Xem sản phẩm</a></li>
+        {% if role == 'seller' or role == 'admin' %}
+        <li><a href="/products">Đăng sản phẩm</a></li>
+        {% endif %}
+        <li><a href="/orders">Xem/Tạo đơn hàng</a></li>
+        <li><a href="/logout">Đăng xuất</a></li>
+    </ul>
+</body>
+</html> 

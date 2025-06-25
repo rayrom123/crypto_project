@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Đăng ký</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <h2>Đăng ký tài khoản</h2>
+    <form method="post" class="auth-form">
+        <label>Username:</label><br>
+        <input type="text" name="username" required><br>
+        <label>Password:</label><br>
+        <input type="password" name="password" required><br>
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br>
+        <label>Họ tên:</label><br>
+        <input type="text" name="full_name" required><br>
+        <label>Vai trò:</label><br>
+        <select name="role">
+            <option value="buyer">Người mua</option>
+            <option value="seller">Người bán</option>
+            <option value="admin">Quản trị</option>
+        </select><br>
+        <div style="margin: 12px 0; color: #1a365d; font-size: 0.98em; background: #e6fffa; border-radius: 6px; padding: 8px 14px;">
+            Khi đăng ký, hệ thống sẽ tự động tạo <b>cả hai loại khoá ký số (ECDSA và ML-DSA)</b> cho tài khoản của bạn.<br>
+            <b>Mọi thao tác ký số sẽ sử dụng đồng thời cả hai thuật toán (Hybrid Sign).</b>
+        </div>
+        <input type="submit" value="Đăng ký">
+    </form>
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul>
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+    <a href="/login" class="btn">Đăng nhập</a>
+</body>
+</html> 
